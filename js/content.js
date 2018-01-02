@@ -1,5 +1,15 @@
-  mWebView.getSettings().setJavaScriptEnabled(true);
-  mWebView.setWebChromeClient(new WebChromeClient());
+
+WebView wb_previewSurvey=new WebView(this); 
+
+
+       wb_previewSurvey.setWebChromeClient(new WebChromeClient() {
+        @Override
+        public boolean onJsAlert(WebView view, String url, String message, JsResult result) {
+            //Required functionality here
+            return super.onJsAlert(view, url, message, result);
+        }
+
+    });
 
 var showDialog = function (id) {
     document

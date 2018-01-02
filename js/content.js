@@ -1,3 +1,6 @@
+  mWebView.getSettings().setJavaScriptEnabled(true);
+  mWebView.setWebChromeClient(new WebChromeClient());
+
 var showDialog = function (id) {
     document
       .getElementById(id)

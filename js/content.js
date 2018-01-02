@@ -1,6 +1,4 @@
-document.addEventListener("deviceready", onDeviceReady, false);
 
-function onDeviceReady() {
  
 var showDialog = function (id) {
     document
@@ -147,4 +145,4 @@ function check(id) {
   function p6_2018()
   {
     swal("Done", "Refresh Successfull", "success");
-  }}
+  }

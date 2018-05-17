@@ -1,5 +1,5 @@
 
- 
+ var test=0;
 var showDialog = function (id) {
     document
       .getElementById(id)
